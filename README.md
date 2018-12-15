@@ -27,6 +27,8 @@ In this project, we built a machine translation system using deep learning techn
 
 ### To-do-list
 
+Due to the time limit, we haven't finished all of our initial plan, but we are still working on this project after the project submission deadline to improve the current results. The potential future work includes: 
+
 - [ ] Change GRU to LSTM
 - [ ] Try deeper netowrks for CNN and RNN
 - [ ] Incorporate pre-trained embeddings

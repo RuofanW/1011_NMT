@@ -14,7 +14,7 @@ In this project, we built a machine translation system using deep learning techn
 | Ch-En  | RNN | RNN no Attn | 6.86 |
 | Vi-En  | RNN | RNN no Attn | 7.58 |
 | Ch-En  | RNN | RNN Attn | 13.02 |
-| Ch-En  | RNN | RNN Attn | 12.46 (with beam search on evaluation)|
+| Ch-En  | RNN | RNN Attn | 12.46 (evaluation with beam search)|
 | Vi-En  | RNN | RNN Attn | 15.87 |
 | Ch-En  | CNN | RNN Attn | 7.91 |
 | Vi-En  | CNN  | RNN Attn | 8.51 |

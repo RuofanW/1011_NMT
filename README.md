@@ -7,7 +7,7 @@ DS-GA-1011 Final Project
 In this project, we built a machine translation system using deep learning techniques. There are two language pairs: Viet- namese to English and Chinese to English. We used sequence-to-sequence framework as our prototype, and implement Recurrent Neural Network as well as Convolutional Neural Network as encoder/decoder. We also incorporated some modern deep learning techniques including Attention Mechanism and Teacher Forcing. The translation result was evalu- ated using the Bilingual Evaluation Understudy Score, or BLEU for short, which is a commonly-used metric to compare generated sentences and reference sentences.
 
 
-### Current Results
+### Current Results (On Validation Set)
 
 | Language  | Encoder | Decoder | BLEU |
 | ------------- | ------------- |------------- | ------------- |
@@ -17,6 +17,10 @@ In this project, we built a machine translation system using deep learning techn
 | Vi-En  | RNN | RNN Attn | 15.87 |
 | Ch-En  | CNN | RNN Attn | 7.91 |
 | Vi-En  | CNN  | RNN Attn | 8.51 |
+
+### Current Results (On Test Set with beam search)
+| Ch-En  | RNN | RNN Attn |  |
+| Vi-En  | RNN | RNN Attn |  |
 
 ### To-do-list
 

@@ -23,7 +23,7 @@ In this project, we built a machine translation system using deep learning techn
 | Language  | Encoder | Decoder | BLEU |
 | ------------- | ------------- |------------- | ------------- |
 | Ch-En  | RNN | RNN Attn | 12.21 |
-| Vi-En  | RNN | RNN Attn | 15.74 |
+| Vi-En  | RNN | RNN Attn | 15.47 |
 
 ### To-do-list
 

@@ -20,7 +20,7 @@ In this project, we built a machine translation system using deep learning techn
 | Vi-En  | CNN  | RNN Attn | 8.51 |
 
 ### Current Results (On Test Set)
-Use best model based on validation set BLEU score
+Use the best model based on validation set BLEU score
 
 | Language  | Encoder | Decoder | BLEU |
 | ------------- | ------------- |------------- | ------------- |

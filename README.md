@@ -29,8 +29,11 @@ In this project, we built a machine translation system using deep learning techn
 Our code referred to: 
 
 https://github.com/spro/practical-pytorch
+
 https://github.com/AuCson/PyTorch-Batch-Attention-Seq2seq
+
 https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+
 DS-GA-1011 Fall 2018, Lab 8
 
 

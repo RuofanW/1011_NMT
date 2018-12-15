@@ -18,7 +18,7 @@ In this project, we built a machine translation system using deep learning techn
 | Ch-En  | CNN | RNN Attn | 7.91 |
 | Vi-En  | CNN  | RNN Attn | 8.51 |
 
-### Current Results (On Test Set with beam search)
+### Current Results (On Test Set)
 | Language  | Encoder | Decoder | BLEU |
 | ------------- | ------------- |------------- | ------------- |
 | Ch-En  | RNN | RNN Attn | // |

@@ -20,6 +20,7 @@ In this project, we built a machine translation system using deep learning techn
 
 ### Current Results (On Test Set with beam search)
 | Language  | Encoder | Decoder | BLEU |
+| ------------- | ------------- |------------- | ------------- |
 | Ch-En  | RNN | RNN Attn | // |
 | Vi-En  | RNN | RNN Attn | // |
 

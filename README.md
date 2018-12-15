@@ -1,1 +1,36 @@
-# 1011_NMT
+# Neural Machine Translation
+
+DS-GA-1011 Final Project
+
+### Project Description
+
+In this project, we built a machine translation system using deep learning techniques. There are two language pairs: Viet- namese to English and Chinese to English. We used sequence-to-sequence framework as our prototype, and implement Recurrent Neural Network as well as Convolutional Neural Net- work as encoder/decoder. We also incorpo- rated some modern deep learning techniques including Attention Mechanism and Teacher Forcing. The translation result was evalu- ated using the Bilingual Evaluation Under- study Score, or BLEU for short, which is a commonly-used metric to compare generated sentences and reference sentences.
+
+
+### Current Results
+
+| Language  | Encoder | Decoder | BLEU |
+| ------------- | ------------- |------------- | ------------- |
+| Ch-En  | RNN | RNN no Attn | 6.86 |
+| Vi-En  | RNN | RNN no Attn | 7.58 |
+| Ch-En  | RNN | RNN Attn | 13.02 |
+| Vi-En  | RNN | RNN Attn | 15.87 |
+| Ch-En  | CNN | RNN Attn | 7.91 |
+| Vi-En  | CNN  | RNN Attn | 8.51 |
+
+### To-do-list
+
+- [ ] Change GRU to LSTM
+- [ ] Try deeper netowrks for CNN and RNN
+- [ ] Incorporate pre-trained embeddings
+
+### References
+
+Our code referred to: 
+DS-GA-1011 Fall 2018, Lab 8
+https://github.com/spro/practical-pytorch
+https://github.com/AuCson/PyTorch-Batch-Attention-Seq2seq
+https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
+
+
+
